@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowise Chat</title>
+</head>
+<body>
+    <!-- Your Flowise chat script -->
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "6ab7b96e-e96b-4e92-ad04-7135882a078e",
+            apiHost: "http://localhost:3000",
+        })
+    </script>
+</body>
+</html>
